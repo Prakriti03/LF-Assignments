@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio Design</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Parent div -->
+    <div class="parent-div">
+      <!-- Left Column div -->
+      <div class="Left-Container">
+        <!-- Profile div -->
+        <section class="Left-Container__Profile-Image">
+          <img
+            class="Left-Container__Profile-Image"
+            src="Images/profile-photo.svg"
+            alt="picture"
+          />
+        </section>
+        <section class="Profile-Intro">
+          <div class="Profile-Intro__Name">
+            <p class="profile-intro__title-name">Chiara Bianchi</p>
+            <p class="profile-intro__job">Product Designer</p>
+            <div class="Profile-Intro__quote">
+              <p class="Profile-Intro__quote">
+                <img
+                  id="first-inverted-comma"
+                  src="Images/first_inverted_comma.svg"
+                />
+
+                Design isn't finished unti<br />l somebody is using it.
+                <img
+                  id="second-inverted-comma"
+                  src="Images/second-inverted-comma.svg"
+                />
+              </p>
+            </div>
+            <p class="Profile-Intro__author">Brenda Laurel</p>
+            <hr />
+          </div>
+          <!-- Contacts div -->
+          <div class="profile-intro__contacts">
+            <div class="Profile-Intro__all-contacts">
+              <div>
+                <img src="Images/mail-icon.png" />
+              </div>
+              <div>
+                <p class="profile-intro__contact-topics">Email</p>
+                <p class="profile-intro__contact-details">chiara.bianchi@gmail.com</p>
+              </div>
+            </div>
+            <div class="Profile-Intro__all-contacts">
+              <div>
+                <img src="Images/link-icon.png" />
+              </div>
+              <div>
+                <p class="profile-intro__contact-topics">Website</p>
+                <p class="profile-intro__contact-details">https://aldesign.it</p>
+              </div>
+            </div>
+            <div class="Profile-Intro__all-contacts">
+              <div>
+                <img src="Images/call-icon.png" />
+              </div>
+              <div>
+                <p class="profile-intro__contact-topics">Phone</p>
+                <p class="profile-intro__contact-details">(+39)333 0123 765</p>
+              </div>
+            </div>
+            <div class="Profile-Intro__all-contacts">
+              <div>
+                <img src="Images/location-icon.png" />
+              </div>
+              <div>
+                <p class="profile-intro__contact-topics">Address</p>
+                <p class="profile-intro__contact-details">Bologna, Italy</p>
+              </div>
+            </div>
+          </div>
+          <!-- Socials div -->
+          <div class="socials">
+            <hr />
+            <p class="profile-intro__contact-topics">Socials</p>
+            <div class="socials__contact">
+              <div class="Profile-Intro__all-contacts">
+                <div>
+                  <img src="Images/instagram.svg" />
+                </div>
+                <div>
+                  <p class="profile-intro__contact-topics">Instagram</p>
+                  <p class="profile-intro__contact-details">@chiara.designs</p>
+                </div>
+              </div>
+
+              <div class="Profile-Intro__all-contacts">
+                <div>
+                  <img src="Images/dribble.svg" />
+                </div>
+                <div>
+                  <p class="profile-intro__contact-topics">Dribbble</p>
+                  <p class="profile-intro__contact-details">@chiaradesigns</p>
+                </div>
+              </div>
+              <div class="Profile-Intro__all-contacts">
+                <div>
+                  <img src="Images/twitter.png" />
+                </div>
+                <div>
+                  <p class="profile-intro__contact-topics">Twitter</p>
+                  <p class="profile-intro__contact-details">@chiaradesigns</p>
+                </div>
+              </div>
+              <div class="Profile-Intro__all-contacts">
+                <div>
+                  <img src="Images/linkedin.png" />
+                </div>
+                <div>
+                  <p class="profile-intro__contact-topics">chiara-bianchi-123</p>
+                  <p class="profile-intro__contact-details">Linkedin</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Languages div -->
+          <div>
+            <hr />
+            <p class="profile-intro__contact-topics">Languages</p>
+
+            <div class="profile-intro-contacts">
+              <div class="Profile-Intro__all-contacts">
+                <div>
+                  <img src="Images/italian.svg" />
+                </div>
+                <div>
+                  <p class="profile-intro__contact-topics">Italian</p>
+                  <p class="profile-intro__contact-details">Native</p>
+                </div>
+              </div>
+              <div class="Profile-Intro__all-contacts">
+                <div>
+                  <img src="Images/greek.svg" />
+                </div>
+                <div>
+                  <p class="profile-intro__contact-topics">Greek</p>
+
+                  <p class="profile-intro__contact-details">Native</p>
+                </div>
+              </div>
+              <div class="Profile-Intro__all-contacts">
+                <div>
+                  <img src="Images/english.svg" />
+                </div>
+                <div>
+                  <p class="profile-intro__contact-topics">English</p>
+                  <p class="profile-intro__contact-details">Professional working</p>
+                </div>
+              </div>
+              <div class="Profile-Intro__all-contacts">
+                <div>
+                  <img src="Images/spanish.svg" />
+                </div>
+                <div>
+                  <p class="profile-intro__contact-topics">Spanish</p>
+                  <p class="profile-intro__contact-details">Elementary</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column div -->
+      <div class="Right-Container">
+        <div class="timeline">
+          <p class="headings">Latest Projects</p>
+          <section class="Latest-Projects">
+            <div class="Latest-Projects__projects">
+              <div class="Latest-Projects__sub-projects">
+                <div>
+                  <img src="Images/figma-logo.svg" />
+                </div>
+                <div class="projects-align">
+                  <p class="projects__topic">Poweful Design System</p>
+                  <p class="projects__subtopic">
+                    Figma UI Kit and Design System targeting a wide variety of
+                    use cases.
+                  </p>
+                </div>
+              </div>
+
+              <div class="project__align">
+                <img src="Images/figma-website.png" />
+                <a
+                  class="projects__url"
+                  href="https://www.figma.com/@angelolibero"
+                  ><b>https//figma.com</b></a
+                >
+              </div>
+            </div>
+            <div class="Latest-Projects__projects">
+              <div class="Latest-Projects__sub-projects">
+                <div>
+                  <img src="Images/modern.svg" />
+                </div>
+                <div>
+                  <p class="projects__topic">Modern Website</p>
+                  <p class="projects__subtopic">
+                    Powerful website + dashboard template for your next Chakra
+                    UI project.
+                  </p>
+                </div>
+              </div>
+              <div class="project__align">
+                <img src="Images/website.png" />
+                <a class="projects__url" href="https://ui-8.net"
+                  >https://ui-8.net</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Experience -->
+        <div class="timeline">
+          <p class="headings">Experience</p>
+          <div class="experience">
+            <div class="experience__content">
+              <ul>
+                <li>
+                  <div class="experience">
+                    <div class="experience__detail">
+                      <div class="experience__dateplace">
+                        <div class="experience__date">
+                          <p class="experience__date">Jul 20-Jan 2022</p>
+                        </div>
+                        <div class="experience__place">
+                          <img src="Images/location.png" alt="Location" />
+                          <p class="experience__place">Cupertino</p>
+                        </div>
+                      </div>
+                      <div class="experience__company-role">
+                        <div class="experience__company-logo">
+                          <img src="Images/apple.svg" alt="Apple" />
+                        </div>
+                        <div class="experience__company">
+                          <p class="experience__role">Product Designer</p>
+                          <p class="company-name">Apple</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="experience__description">
+                      <p>
+                        Omnis minima inventore minus. Aut et incidunt. Aut
+                        fugiat culpa illum optio dolorum aut maxime ipsa.
+                        Laborum incidunt enim consectetur perspiciatis. Dolore
+                        ullam dolor impedit dolorum recusandae facilis quo et.
+                        Et ipsam vel sunt qui ut officia voluptatem.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="experience">
+                    <div class="experience__detail">
+                      <div class="experience__dateplace">
+                        <div class="experience__date">
+                          <p class="experience__date">Oct 2015-Mar 2020</p>
+                        </div>
+                        <div class="experience__place">
+                          <img src="Images/location.png" alt="Location" />
+                          <p class="experience__place">Austin</p>
+                        </div>
+                      </div>
+                      <div class="experience__company-role">
+                        <div class="experience__company-logo">
+                          <img src="Images/tesla.svg" alt="Tesla" />
+                        </div>
+                        <div class="experience__company">
+                          <p class="experience__role">UX Designer</p>
+                          <p class="experience__company-name">Tesla</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="experience__description">
+                      <p>
+                        Commodi atque sit ut qui assumenda earum aperiam
+                        occaecati voluptates. Fuga quas aut soluta nostrum et
+                        beatae. Maiores repudiandae quibusdam autem enim ut in
+                        possimus ad.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="experience">
+                    <div class="experience__detail">
+                      <div class="experience__dateplace">
+                        <div class="experience__date">
+                          <p class="experience__date">Sep 2014-Aug 2015</p>
+                        </div>
+                        <div class="experience__place">
+                          <img src="Images/location.png" alt="Location" />
+                          <p class="experience__place">Mountain View</p>
+                        </div>
+                      </div>
+                      <div class="experience__company-role">
+                        <div class="experience__company-logo">
+                          <img src="Images/google.svg" alt="google" />
+                        </div>
+                        <div class="experience__company">
+                          <p class="experience__role">Design system architect</p>
+                          <p class="company-name">Google</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="experience__description">
+                      <p>
+                        Ut molestias animi. Neque voluptate velit corporis
+                        adipisci voluptate et qui sed neque. Inventore eos non.
+                        Qui eveniet quo incidunt nemo.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="experience">
+                    <div class="experience__detail">
+                      <div class="experience__place">
+                        <div class="experience__date">
+                          <p class="experience__date">Sep 2014-Jul 2013</p>
+                        </div>
+                        <div class="experience__place">
+                          <img src="Images/location.png" alt="Location" />
+                          <p class="experience__place">Berlin</p>
+                        </div>
+                      </div>
+                      <div class="experience__company-role">
+                        <div class="experience__company-logo">
+                          <img src="Images/vectornator.svg" alt="Vectornator" />
+                        </div>
+                        <div class="experience__company">
+                          <p class="experience__role">Design system Architect</p>
+                          <p class="company-name">Vectornator</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="experience__description">
+                      <p>
+                        Omnis minima inventore minus. Aut et incidunt. Aut
+                        fugiat culpa illum optio dolorum aut maxime ipsa.
+                        Laborum incidunt enim consectetur perspiciatis. Dolore
+                        ullam dolor impedit dolorum recusandae facilis quo et.
+                        Et ipsam vel sunt qui ut officia voluptatem.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="timeline">
+          <p class="headings">Education</p>
+          <section class="Education">
+            <div class="education__topics">
+              <div class="education__subtopics">
+                <img src="Images/memorisely.svg" />
+                <p class="education__headings
+">Memorisely</p>
+              </div>
+              <div>
+                <p class="education__description
+">Build a design system</p>
+                <p class="education__date
+">Oct 2021</p>
+              </div>
+            </div>
+            <div class="education__topics">
+              <div class="education__subtopics">
+                <img src="Images/UX.svg" />
+                <p class="education__headings
+">UX acadamy</p>
+              </div>
+              <div>
+                <p class="education__description
+">UX Design certificate</p>
+                <p class="education__date
+">Feb 2020</p>
+              </div>
+            </div>
+            <div class="education__topics">
+              <div class="education__subtopics">
+                <img src="Images/coursera.svg" />
+                <p class="education__headings
+">Coursera</p>
+              </div>
+              <div>
+                <p class="education__description
+">Usera reasearch course</p>
+                <p class="education__date
+">Dec 2019</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- Skills -->
+        <div class="timeline">
+          <p class="headings">Skills</p>
+          <!-- parent div for skills -->
+          <div class="skills">
+            <!-- design div -->
+            <div class="skills__heading">
+              <!-- design div -->
+              <div class="skills__topic">
+                <img src="Images/design.svg" alt="design" />
+                <p style="color: #2e2e48">Design</p>
+              </div>
+              <div class="skills__design">
+                <div class="skills__connected">
+                  <div>
+                    <p>Web Design</p>
+                  </div>
+                  <div class="skills__border">
+                    <p>Mobile Design</p>
+                  </div>
+                </div>
+                <div class="skills__notconnected">
+                  <p>User <br />Experience</p>
+                </div>
+                <div class="skills__notconnected list">
+                  <div class="inner-list">
+                    <ul>
+                      <li>
+                        <p>Wireframing</p>
+                      </li>
+                      <li>
+                        <p>Prototyping</p>
+                      </li>
+                      <li>
+                        <p>Testing</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="skills__notconnected">
+                  <p>
+                    Design <br />
+                    System
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- dev div -->
+            <div class="skills__heading">
+              <!-- design div -->
+              <div class="skills__topic">
+                <img src="Images/development.svg" alt="dev" />
+                <p style="color: #2e2e48">Development</p>
+              </div>
+              <div class="skills__dev">
+                <div class="skills__notconnected">
+                  <p>React JS</p>
+                </div>
+                <div class="skills__notconnected list">
+                  <div class="skills__inner-list">
+                    <ul>
+                      <li>
+                        <p>Chakra</p>
+                      </li>
+
+                      <li>
+                        <p>Emotion</p>
+                      </li>
+                      <li>
+                        <p>Framer</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="skills__connected">
+                  <p>TypeScript</p>
+                  <p>Next JS</p>
+                </div>
+                <div class="skills__connected">
+                  <div class="">
+                    <p>HTML</p>
+                  </div>
+                  <div class="border">
+                    <div class="inner">
+                      <p>CSS</p>
+                    </div>
+                    <div class="">
+                      <p>JS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="timeline">
+          <p class="headings">Tools</p>
+          <div id="tool">
+            <div class="tool__list">
+              <!-- tolls tiles -->
+              <div class="tools__tiles 1">
+                <div class="tool__icon">
+                  <img src="Images/figma-logo.svg" alt="" />
+                </div>
+                <div class="tool__detail">
+                  <p class="education__description">Figma</p>
+                  <p class="education__date">UI Design prototyping</p>
+                </div>
+              </div>
+
+              <div class="tools__tiles
+ 2">
+                <div class="tool__icon">
+                  <img src="Images/maze.svg" alt="" />
+                </div>
+                <div class="tool__detail
+">
+                  <p class="education__description
+">Maze</p>
+                  <p class="education__date
+">Product research</p>
+                </div>
+              </div>
+
+              <div class="tools__tiles
+ 3">
+                <div class="tool__icon">
+                  <img src="Images/spline.svg" alt="" />
+                </div>
+                <div class="tool__detail
+">
+                  <p class="education__description
+">Spline</p>
+                  <p class="education__date
+">3D design</p>
+                </div>
+              </div>
+
+              <div class="tools__tiles
+ 4">
+                <div class="tool__icon">
+                  <img src="Images/zeplin.svg" alt="" />
+                </div>
+                <div class="tool__detail
+">
+                  <p class="education__description
+">Zeplin</p>
+                  <p class="education__date
+">Design workspace</p>
+                </div>
+              </div>
+
+              <div class="tools__tiles
+ 5">
+                <div class="tool__icon">
+                  <img src="Images/vectornator.svg" alt="" />
+                </div>
+                <div class="tool__detail
+">
+                  <p class="education__description
+">Vectornator</p>
+                  <p class="education__date
+">Graphic Design</p>
+                </div>
+              </div>
+
+              <div class="tools__tiles
+ 6">
+                <div class="tool__icon">
+                  <img src="Images/rotator.svg" alt="" />
+                </div>
+                <div class="tool__detail
+">
+                  <p class="education__description
+">Rotato</p>
+                  <p class="education__date
+">Mockups</p>
+                </div>
+              </div>
+
+              <div class="tools__tiles
+ 7">
+                <div class="tool__icon">
+                  <img src="Images/VS-Code.svg" alt="" />
+                </div>
+                <div class="tool__detail
+">
+                  <p class="education__description
+">VS Code</p>
+                  <p class="education__date
+">Code editor</p>
+                </div>
+              </div>
+
+              <div class="tools__tiles
+ 8">
+                <div class="tool__icon">
+                  <img src="Images/xcode.svg" alt="" />
+                </div>
+                <div class="tool__detail
+">
+                  <p class="education__description
+">Xcode</p>
+                  <p class="education__date
+">iOS development</p>
+                </div>
+              </div>
+
+              <div class="tools__tiles
+ 9">
+                <div class="tool__icon">
+                  <img src="Images/notion.svg" alt="" />
+                </div>
+                <div class="tool__detail">
+                  <p class="education__description
+">Notion</p>
+                  <p class="education__date
+">Project management</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
